@@ -1,7 +1,24 @@
 aid: phoenix-tailings
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phoenix-tailings.png
 name: Phoenix Tailings
-description: Phoenix Tailings is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Phoenix Tailings is a clean rare earth and critical minerals refining company working to
+  restore U.S. industrial independence by building domestic refining capacity for the metals behind every
+  major technology. It recovers rare earth elements and other critical minerals from mining waste (tailings)
+  and low-grade feedstocks using a low-emission, zero-landfill process, supplying materials for medical
+  devices, electric vehicles and automotive systems, electronics, and defense applications. The company
+  operates as a materials producer and does not currently publish a public developer API, SDK, or developer
+  portal; this API Evangelist profile tracks its identity and web/domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/phoenix-tailings/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +28,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Rare Earth Metals
+- Critical Minerals
+- Refining
+- Materials
+- Manufacturing
+- Clean Technology
+- Sustainability
+- Mining
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/phoenix-tailings-domain-security.yml
 - type: Website
   url: https://phoenixtailings.com/
